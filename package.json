@@ -1,7 +1,7 @@
 {
   "name": "preview-position",
   "main": "./lib/inkdrop-preview-position",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Inkdrop plugin to change preview position",
   "keywords": [],
   "repository": "https://github.com/yaeda/inkdrop-preview-position",
