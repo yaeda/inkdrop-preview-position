@@ -1,0 +1,15 @@
+{
+  "name": "preview-position",
+  "main": "./lib/inkdrop-preview-position",
+  "version": "0.0.0",
+  "description": "Inkdrop plugin to change preview position",
+  "keywords": [],
+  "repository": "https://github.com/yaeda/inkdrop-preview-position",
+  "license": "MIT",
+  "engines": {
+    "inkdrop": "^4.x"
+  },
+  "dependencies": {
+    "chroma-js": "^2.1.0"
+  }
+}

@@ -1,0 +1,40 @@
+@border-color: var(--inkdrop-preview-position_border-color);
+
+@width: var(--inkdrop-preview-position_width);
+@height: var(--inkdrop-preview-position_height);
+
+@preview-top: var(--inkdrop-preview-position_preview-top);
+@preview-left: var(--inkdrop-preview-position_preview-left);
+@editor-top: var(--inkdrop-preview-position_editor-top);
+@editor-left: var(--inkdrop-preview-position_editor-left);
+
+@border-top-color: var(--inkdrop-preview-position_border-top-color);
+@border-bottom-color: var(--inkdrop-preview-position_border-bottom-color);
+@border-left-color: var(--inkdrop-preview-position_border-left-color);
+@border-right-color: var(--inkdrop-preview-position_border-right-color);
+
+.mde {
+  width: @width;
+  height: @height;
+}
+
+.editor.editor-viewmode-sidebyside .mde .mde-cm-wrapper .CodeMirror {
+  width: @width;
+  height: @height;
+
+  top: @editor-top;
+  left: @editor-left;
+}
+
+.editor.editor-viewmode-sidebyside .mde-preview {
+  width: @width;
+  height: @height;
+
+  top: @preview-top;
+  left: @preview-left;
+
+  border-top: 1px solid @border-top-color;
+  border-bottom: 1px solid @border-bottom-color;
+  border-left: 1px solid @border-left-color;
+  border-right: 1px solid @border-right-color;
+}
