@@ -23,6 +23,8 @@ ipm install preview-position
 
 Accent color in string. A [color keywords](https://www.w3.org/TR/css-color-3/#svg-color) (like `red`), a hex color value (like `#FF0000`) or `transparent` is acceptable.
 
+![screenshot of settings](https://user-images.githubusercontent.com/819673/117780837-f4ef2680-b27a-11eb-9943-034ceecf3b24.png)
+
 ## Changelog
 
 see [Releases](https://github.com/yaeda/inkdrop-preview-position/releases)
