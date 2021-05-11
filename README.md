@@ -1,5 +1,7 @@
 # inkdrop-preview-position
 
+![Inkdrop Plugin Version](https://inkdrop-plugin-badge.vercel.app/api/version/preview-position?style=flat) ![Inkdrop Plugin Downloads](https://inkdrop-plugin-badge.vercel.app/api/downloads/preview-position?style=flat)
+
 Change markdown preview layout
 
 ## Installation
